@@ -1,11 +1,16 @@
+:root {
+    --background-color: black;
+    --color: pink;
+}
+
 nav {
-    background-color: black;
+    background-color: var(--background-color);
     padding: 10px;
 }
 
 
 nav a {
-    color: pink;
+    color: var(--color);
     display: block;
     padding: 20px;
 }
@@ -13,7 +18,7 @@ nav a {
 
 
 h1 {
-    color: pink;
+    color: var(--color);
 }
 
 
@@ -22,8 +27,8 @@ main{
     margin: auto;
     border: 1px solid whitesmoke;
     padding: 1rem;
-    background-color: black;
-    color: pink;
+    background-color: var(--background-color);
+    color: var(--color);
     text-align: center;
 }
 
@@ -48,8 +53,8 @@ aside {
     margin: auto;
     border: 1px solid whitesmoke;
     padding: 1em;
-    background-color: black;
-    color: pink;
+    background-color: var(--background-color);
+    color: var(--color);
     text-align: center;
 }
 
@@ -65,7 +70,7 @@ aside img {
 footer{
     margin-top: 1px;
     border-top: 5px solid pink;
-    background-color: black;
-    color: pink;
+    background-color: var(--background-color);
+    color: var(--color);
     text-align: center;
 }
