@@ -13,13 +13,12 @@
 }
 
 .logo-box img {
-    display: block;
+    display: inline-block;
     width: 200px;
     height: auto;
     background-color: var(--secondary-color);
     padding: 10px;
     margin: auto;
-    float: left;
 }
 
 nav {
@@ -27,7 +26,7 @@ nav {
     padding: 10px;
     font-family: "Sniglet", sans-serif;
     display: block;
-    text-align: justify;
+    text-align: center;
 }
 
 h1, h2, h3, h4, h5, h6 {font-family: "Trade Winds", serif;}
@@ -35,10 +34,11 @@ h1, h2, h3, h4, h5, h6 {font-family: "Trade Winds", serif;}
 h1 {
     text-align: center;
 	font-size: 5rem;
-	text-shadow: 3px 3px 5px var(--accent-2);
+	text-shadow: 3px 3px 5px white;
 }
 
 h2 {
+    display: block;
     text-align: center;
 	font-size: 2.5rem;
 	text-shadow: 3px 3px 5px var(--accent-1);
@@ -75,21 +75,32 @@ p {
 
 .hero h1 {
     position: absolute;
-    top: 175px;
+    top: 200px;
     left: 75px
 }
 
 
 .hero article {
     position: absolute;
-    top: 350px;
-    width: 25%;
+    top: 650px;
+    width: 100%;
     height: auto;
-    text-align: justify;
+    text-align: center;
     background-color: var(--accent-2);
     margin: 5px;
     padding: 5px;
+    opacity: 75%;
 }
+
+.hero article img {
+    float: right;
+    width: 20%;
+    height: auto;
+    margin: 2px;
+    padding: 2px;
+   
+}
+
 
 section h2 {
     display: block;
@@ -108,16 +119,18 @@ section img {
 footer{
     margin-top: 15px;
     border-top: 1px solid var(--accent-1);
-    background-color: var(--accent-2);
-    color: var(--color);
-    text-align: center;
-    position: fixed;
+    text-align: justify;
     clear: both;
+    text-decoration: none;
 }
 
 footer img {
-    display: block;
+    display: inline;
     width: 50px;
     height: auto;
     margin: 15px;
+}
+
+.sociallinks a {
+    text-decoration: none;
 }
