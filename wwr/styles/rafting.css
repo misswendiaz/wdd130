@@ -1,0 +1,101 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+
+:root {
+    --primary-color: #28587B;
+    --secondary-color: #70CDFF;
+    --accent-1: #23B5D3;
+    --accent-2: #93827F;
+}
+
+.logo-box img {
+    display: inline;
+    width: 200px;
+    height: auto;
+    background-color: var(--secondary-color);
+    padding: 10px;
+    margin: auto;
+}
+
+nav {
+    background-color: var(--secondary-color);
+    padding: 10px;
+    font-family: "Sniglet", sans-serif;
+    display: inline;
+    text-align: justify;
+}
+
+h1, h2, h3, h4, h5, h6 {font-family: "Trade Winds", serif;}
+
+h1 {
+    text-align: center;
+	font-size: 5rem;
+	text-shadow: 3px 3px 5px var(--accent-1);
+}
+
+main img {
+    width: 1000px;
+    height: auto;
+    border: 1px solid var(--primary-color);
+    padding: 2px;
+    box-shadow: 0 0 30px var(--secondary-color);
+    float: right;
+}
+
+
+
+p {
+    padding: 0;
+    font-family: "Sniglet", sans-serif;
+}
+
+.herodiv {
+    margin: 10px auto;
+	position: relative;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    float: right;
+}
+
+article img {
+    display: block;
+    width: 30%;
+    height: auto;
+    position: absolute;
+    top: 500px;
+    left: 500px;
+}
+
+
+section img {
+    display: inline;
+    width: 20%;
+    height: auto;
+    position: absolute;
+    top: 600px;
+}
+
+footer{
+    margin-top: 15px;
+    border-top: 1px solid var(--accent-1);
+    background-color: var(--accent-2);
+    color: var(--color);
+    text-align: center;
+    position: fixed;
+}
+
+footer img {
+    display: inline;
+    width: 50px;
+    height: auto;
+    margin: 15px;
+}
