@@ -1,8 +1,8 @@
-/* * {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-} */
+}
 
 
 :root {
@@ -13,7 +13,7 @@
 }
 
 .logo-box img {
-    display: inline;
+    display: block;
     width: 200px;
     height: auto;
     background-color: var(--secondary-color);
@@ -26,7 +26,7 @@ nav {
     background-color: var(--secondary-color);
     padding: 10px;
     font-family: "Sniglet", sans-serif;
-    display: inline;
+    display: block;
     text-align: justify;
 }
 
@@ -35,13 +35,13 @@ h1, h2, h3, h4, h5, h6 {font-family: "Trade Winds", serif;}
 h1 {
     text-align: center;
 	font-size: 5rem;
-	text-shadow: 3px 3px 5px var(--accent-1);
+	text-shadow: 3px 3px 5px var(--accent-2);
 }
 
 h2 {
     text-align: center;
 	font-size: 2.5rem;
-	text-shadow: 3px 3px 5px var(--accent-2);
+	text-shadow: 3px 3px 5px var(--accent-1);
 }
 
 main img {
@@ -66,32 +66,37 @@ p {
 	position: relative;
 }
 
-.herodiv h1 {
-    position: absolute;
-}
-
-.herodiv article {
-    position: absolute;
-}
-
 .hero img {
     display: block;
     width: 100%;
     height: auto;
     object-fit: cover;
-    float: right;
 }
 
-article img {
-    display: block;
-    width: 30%;
-    height: auto;
+.hero h1 {
     position: absolute;
-    top: 500px;
-    left: 500px;
+    top: 175px;
+    left: 75px
 }
 
 
+.hero article {
+    position: absolute;
+    top: 350px;
+    width: 25%;
+    height: auto;
+    text-align: justify;
+    background-color: var(--accent-2);
+    margin: 5px;
+    padding: 5px;
+}
+
+section h2 {
+    display: block;
+    margin: 5px;
+    padding: 5px;
+
+}
 section img {
     display: inline;
     width: 20%;
@@ -107,10 +112,11 @@ footer{
     color: var(--color);
     text-align: center;
     position: fixed;
+    clear: both;
 }
 
 footer img {
-    display: inline;
+    display: block;
     width: 50px;
     height: auto;
     margin: 15px;
