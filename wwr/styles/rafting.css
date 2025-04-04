@@ -262,14 +262,24 @@ figure img {
 .contactpage {
     display: grid;
     grid-template-columns: (5,1fr);
-    grid-template-rows: (3, auto);
+    grid-template-rows: (4, auto);
     margin: 30px;
     padding: 10px;
 }
 
+.contactpage h1 {
+    grid-column: 1/6;
+    grid-row: 1/2;
+    text-align: center;
+	font-size: 5rem;
+	text-shadow: 3px 3px 5px var(--accent-1);
+    justify-content: center;
+    align-items: center;
+}
+
 .contacts {
     grid-column: 1/4;
-    grid-row: 1/2;
+    grid-row: 2/3;
     display: grid;
     font-size: larger;
 }
@@ -294,7 +304,7 @@ figure img {
 
 .employees {
     grid-column: 1/4;
-    grid-row: 2/4;
+    grid-row: 3/5;
 }
 
 .employees h2 {
@@ -333,7 +343,7 @@ figure img {
 
 .inquiry {
     grid-column: 4/6;
-    grid-row: 1/2;
+    grid-row: 2/3;
 }
 
 form {
