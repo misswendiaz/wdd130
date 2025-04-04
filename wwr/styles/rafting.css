@@ -306,6 +306,9 @@ figure img {
     grid-column: 1/4;
     justify-content: center;
     align-items: center;
+    width: 100%;
+    height: auto;
+    border: 0;
 }
 
 
