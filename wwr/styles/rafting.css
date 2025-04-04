@@ -266,8 +266,8 @@ figure img {
 
 .contactpage {
     display: grid;
-    grid-template-columns: (5,1fr);
-    grid-template-rows: (4, auto);
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+    grid-template-rows: auto auto auto auto;
     margin: 30px;
     padding: 10px;
 }
@@ -314,7 +314,7 @@ figure img {
     grid-row: 3/5;
     align-items: center;
     display: grid;
-    grid-template-columns: (3, auto);
+    grid-template-columns: auto auto auto;
     justify-content: space-evenly;
 }
 
