@@ -432,7 +432,7 @@ button:hover {
 
 .purpose-offerings p,
 .trips p {
-    grid: 2/3;
+    grid-column: 2/3;
 }
 
 .purpose-offerings img,
@@ -440,7 +440,7 @@ button:hover {
     width: 250px;
     height: auto;
     margin: 30px;
-    grid: 3/4;
+    grid-column: 3/4;
 }
 
 .trips-newsletter {
