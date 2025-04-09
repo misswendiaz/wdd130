@@ -430,11 +430,13 @@ button:hover {
     grid-column: 1/2;
 }
 
-.purpose-offerings p, .trips p {
+.purpose-offerings p,
+.trips p {
     grid: 2/3;
 }
 
-.purpose-offerings img, .trips img {
+.purpose-offerings img,
+.trips img {
     width: 250px;
     height: auto;
     margin: 30px;
