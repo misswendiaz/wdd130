@@ -513,7 +513,7 @@ th, td {
 
 tbody > tr:nth-of-type(even) {
     background-color: var(--accent-2);
-    color: white;
+    color: black;
 }
 
 .adventure-question a {
