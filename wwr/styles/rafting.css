@@ -131,7 +131,7 @@ p {
 .hero h4 {
     position: absolute;
     top: 425px;
-    
+    text-shadow: 3px 3px 5px var(--accent-1);
 }
 
 .hero article img {
