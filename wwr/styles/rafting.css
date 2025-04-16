@@ -128,6 +128,12 @@ p {
     opacity: 75%;
 }
 
+.hero h4 {
+    position: absolute;
+    top: 425px;
+    
+}
+
 .hero article img {
     float: right;
     width: 20%;
