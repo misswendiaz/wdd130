@@ -124,13 +124,13 @@ p {
     text-align: center;
     background-color: white;
     margin: 5px;
-    padding: 40px;
+    padding: 60px;
     opacity: 75%;
 }
 
 .hero h4 {
     position: absolute;
-    top: 425px;
+    top: 20px;
     text-shadow: 3px 3px 5px var(--accent-1);
 }
 
